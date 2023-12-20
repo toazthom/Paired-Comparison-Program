@@ -1,5 +1,5 @@
 /**
- * @file Main.cpp
+ * @file main.cpp
  * @author Thomas Toaz
  *
  *
@@ -7,6 +7,6 @@
  */
 
 #include "pch.h"
-//#include "CanadianExperienceApp.h"
+#include "PairedComparisonApp.h"
 
-wxIMPLEMENT_APP();
+wxIMPLEMENT_APP(PairedComparisonApp);

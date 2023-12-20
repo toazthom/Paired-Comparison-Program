@@ -1,0 +1,19 @@
+/**
+ * @file ViewComparison.h
+ * @author Thomas Toaz
+ *
+ *
+ */
+
+#ifndef PAIREDCOMPARISONPROGRAM_COMPARISONLIB_VIEWCOMPARISON_H
+#define PAIREDCOMPARISONPROGRAM_COMPARISONLIB_VIEWCOMPARISON_H
+
+class ViewComparison : public wxWindow
+{
+private:
+
+public:
+
+};
+
+#endif //PAIREDCOMPARISONPROGRAM_COMPARISONLIB_VIEWCOMPARISON_H
