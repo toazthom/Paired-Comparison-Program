@@ -35,10 +35,8 @@ MainFrame::MainFrame(std::wstring resourcesDir) :
  */
 void MainFrame::Initialize()
 {
-    wxXmlResource::Get()->LoadFrame(this, nullptr, L"MainFrame");
-#ifdef WIN32
-    SetIcon(wxIcon(L"mainframe", wxBITMAP_TYPE_ICO_RESOURCE));
-#endif
+    Create(nullptr, wxID_ANY, L"Paired Comparison",
+           wxDefaultPosition,  wxSize( 1000,800 ));
 
     auto sizer = new wxBoxSizer( wxVERTICAL );
 
