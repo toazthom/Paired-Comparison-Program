@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxFrame" name="MainFrame">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<pos>50,50</pos>
+		<size>1000,800</size>
+		<title>Paired Comparison</title>
+		<aui_managed>0</aui_managed>
+		<object class="wxMenuBar" name="m_menubar1">
+			<object class="wxMenu" name="FileMenu">
+				<label>_File</label>
+				<object class="wxMenuItem" name="wxID_OPEN">
+					<label>Open Comparison _File...\tCtrl-F</label>
+					<help>Open an ongoing comparison being made</help>
+				</object>
+				<object class="wxMenuItem" name="wxID_SAVEAS">
+					<label>Save Comparison _As...\tCtrl-S</label>
+					<help>Save and ongoing comparison</help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ImportEssays">
+					<label>Import Essays</label>
+					<help></help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="wxID_EXIT">
+					<label>E_xit\tAlt-X</label>
+					<help>Exit the application</help>
+				</object>
+			</object>
+		</object>
+		<object class="wxToolBar" name="ToolBar" subclass="forward_declare">
+			<style>wxTB_HORIZONTAL</style>
+			<bitmapsize>80,40</bitmapsize>
+			<margins>-1,-1</margins>
+			<packing>1</packing>
+			<separation>5</separation>
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="tool" name="SelectLeft">
+				<label>SelectLeft</label>
+				<tooltip></tooltip>
+				<longhelp></longhelp>
+				<bitmap>selectButton.png</bitmap>
+			</object>
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="separator" />
+			<object class="tool" name="SelectRight">
+				<label>SelectRight</label>
+				<tooltip></tooltip>
+				<longhelp></longhelp>
+				<bitmap>selectButton.png</bitmap>
+			</object>
+		</object>
+	</object>
+</resource>

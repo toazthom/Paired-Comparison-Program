@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp>
+    <essay id="1" content=" essay one">
+        <chosenOver chosenOverId="3"/>
+    </essay>
+    <essay id="2" content=" essay two">
+        <lostTo lostToId="4"/>
+    </essay>
+    <essay id="3" content=" essay three">
+        <lostTo lostToId="4"/>
+        <lostTo lostToId="1"/>
+    </essay>
+    <essay id="4"
+           content="This is an example of a longer string that would be inserted into the program to demonstrate its returning capabilities managing the string stream to encorporate the string to the proper size of the window.">
+        <chosenOver chosenOverId="3"/>
+        <chosenOver chosenOverId="2"/>
+    </essay>
+    <incompletedPair>
+        <pair essayId1="1" essayId2="4"/>
+        <pair essayId1="2" essayId2="3"/>
+    </incompletedPair>
+    <completedPair>
+        <pair essayId1="3" essayId2="4"/>
+        <pair essayId1="2" essayId2="4"/>
+        <pair essayId1="1" essayId2="3"/>
+    </completedPair>
+    <currentPair>
+        <pair essayId1="1" essayId2="2"/>
+    </currentPair>
+</comp>
