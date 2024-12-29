@@ -35,4 +35,3 @@ The **Paired-Comparison Program** is a C++ application designed to streamline es
   - **Essay IDs** in the first column.  
   - **Essay content** in the second column.  
 
----
