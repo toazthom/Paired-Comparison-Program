@@ -3,6 +3,8 @@
 ## Overview  
 The **Paired-Comparison Program** is a C++ application designed to streamline essay evaluation by providing an intuitive interface for teachers to upload, display, and pair student essays. This program simplifies the process of comparing essays, enabling the creation of a rank order with ease and efficiency.  
 
+![Program Picture](Program_Picture.png)
+
 ---
 
 ## Features  
